@@ -79,11 +79,13 @@ p {
 }
 
 .cta {
+  display: inline-block;
   margin-top: 1rem;
   border: 0;
   border-radius: 12px;
   padding: 0.75rem 1rem;
   font-weight: 700;
+  text-decoration: none;
   background: linear-gradient(90deg, #cf7f3e, #9a4e25);
   color: #fff;
   cursor: pointer;
