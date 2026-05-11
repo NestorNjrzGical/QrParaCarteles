@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogo de Paginas Estaticas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <p class="tag">Catalogo Web</p>
+        <h1>Selecciona una pagina y abre su demo estatica</h1>
+        <p>
+          Este indice funciona como punto de entrada para tus paginas HTML5, CSS
+          y JavaScript.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="toolbar" aria-label="Buscador de categorias">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Buscar: cafeteria, ferreteria, terreno..."
+          autocomplete="off"
+        />
+      </section>
+
+      <section class="catalog" id="catalog">
+        <article class="card" data-keywords="cafeteria cafe bebida postres">
+          <img
+            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80"
+            alt="Interior de una cafeteria"
+            loading="lazy"
+          />
+          <div class="card__body">
+            <h2>Cafeteria</h2>
+            <p>Landing enfocada en menu destacado y ambiente acogedor.</p>
+            <a class="btn" href="1/index.html">Abrir pagina</a>
+          </div>
+        </article>
+
+        <article class="card" data-keywords="ferreteria herramientas construccion">
+          <img
+            src="https://images.unsplash.com/photo-1581147036324-c1c74a3e8f1e?auto=format&fit=crop&w=1400&q=80"
+            alt="Pasillo con herramientas de ferreteria"
+            loading="lazy"
+          />
+          <div class="card__body">
+            <h2>Ferreteria</h2>
+            <p>Pagina de productos y servicios para hogar y obra.</p>
+            <a class="btn" href="2/index.html">Abrir pagina</a>
+          </div>
+        </article>
+
+        <article class="card" data-keywords="terreno lote inversion venta">
+          <img
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=80"
+            alt="Terreno amplio en venta al atardecer"
+            loading="lazy"
+          />
+          <div class="card__body">
+            <h2>Venta de Terreno</h2>
+            <p>Ficha de propiedad con ubicacion, servicios y contacto.</p>
+            <a class="btn" href="3/index.html">Abrir pagina</a>
+          </div>
+        </article>
+      </section>
+
+      <p id="emptyState" class="empty" hidden>No hay resultados para esa busqueda.</p>
+    </main>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
