@@ -1,0 +1,54 @@
+:root {
+  --tech-bg: #070b14;
+  --tech-primary: #29d3ff;
+  --tech-secondary: #12b886;
+  --tech-surface: #ffffff;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f7fb;
+}
+
+.hero-tech {
+  background:
+    radial-gradient(circle at 90% 15%, rgba(41, 211, 255, 0.35), transparent 30%),
+    linear-gradient(120deg, #0b1326, #111a33 45%, #0a1d2c);
+}
+
+.hero-chip {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid rgba(41, 211, 255, 0.7);
+  border-radius: 999px;
+  color: #b8f4ff;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.service-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 24px rgba(16, 27, 48, 0.2) !important;
+}
+
+.service-card--alt {
+  border: 2px solid rgba(18, 184, 134, 0.22);
+}
+
+.card-img-top {
+  height: 210px;
+  object-fit: cover;
+}
+
+.cta-strip {
+  background:
+    linear-gradient(110deg, rgba(18, 184, 134, 0.92), rgba(23, 146, 206, 0.95)),
+    var(--tech-bg);
+}
