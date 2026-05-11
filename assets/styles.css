@@ -89,6 +89,16 @@ body {
   box-shadow: 0 0 0 4px rgba(201, 108, 52, 0.2);
 }
 
+.section-title {
+  margin: 2.2rem 0 1.4rem;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  color: var(--text);
+}
+
+.section-title.mt-5 {
+  margin-top: 4rem;
+}
+
 .catalog {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

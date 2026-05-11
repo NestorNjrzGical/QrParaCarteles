@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGradient3)"/>
+  
+  <!-- Cabeza con cabello saludable -->
+  <circle cx="300" cy="100" r="45" fill="#d4a574"/>
+  
+  <!-- Cabello brillante y ondulado -->
+  <g id="cabello">
+    <path d="M 260 70 Q 250 50 270 40 Q 280 35 300 30 Q 320 35 330 40 Q 350 50 340 70" fill="#8b4513"/>
+    <ellipse cx="280" cy="140" rx="8" ry="20" fill="#8b4513" opacity="0.8"/>
+    <ellipse cx="320" cy="140" rx="8" ry="20" fill="#8b4513" opacity="0.8"/>
+    <path d="M 270 125 Q 260 130 265 150" stroke="#8b4513" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 330 125 Q 340 130 335 150" stroke="#8b4513" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  
+  <!-- Botellas de productos -->
+  <g transform="translate(150, 220)">
+    <rect x="0" y="0" width="30" height="60" rx="3" fill="#e8d5b7"/>
+    <circle cx="15" cy="-5" r="8" fill="#c41e3a"/>
+    <text x="15" y="35" text-anchor="middle" font-size="10" fill="#333">Shampoo</text>
+  </g>
+  
+  <g transform="translate(420, 220)">
+    <rect x="0" y="0" width="30" height="60" rx="3" fill="#d4f1f4"/>
+    <circle cx="15" cy="-5" r="8" fill="#4facfe"/>
+    <text x="15" y="35" text-anchor="middle" font-size="10" fill="#333">Acondicionador</text>
+  </g>
+  
+  <!-- Gotas de agua/brillo -->
+  <circle cx="250" cy="180" r="4" fill="#00f2fe" opacity="0.8"/>
+  <circle cx="350" cy="180" r="4" fill="#00f2fe" opacity="0.8"/>
+  <circle cx="300" cy="200" r="3" fill="#4facfe" opacity="0.7"/>
+  
+  <!-- Texto -->
+  <text x="300" y="350" font-size="28" font-weight="bold" text-anchor="middle" fill="#fff" font-family="Arial">Cuidado Capilar Integral</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGradient1)"/>
+  
+  <!-- Figura humana -->
+  <circle cx="300" cy="80" r="30" fill="#f4a460"/>
+  
+  <!-- Cabello cortado profesionalmente -->
+  <g id="hair">
+    <path d="M 280 100 Q 275 85 300 75 Q 325 85 320 100" fill="#8b4513"/>
+    <path d="M 270 110 L 265 140" stroke="#8b4513" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 330 110 L 335 140" stroke="#8b4513" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Torso -->
+  <rect x="270" y="130" width="60" height="80" rx="8" fill="#daa520"/>
+  
+  <!-- Brazos -->
+  <line x1="270" y1="150" x2="220" y2="180" stroke="#f4a460" stroke-width="10" stroke-linecap="round"/>
+  <line x1="330" y1="150" x2="380" y2="180" stroke="#f4a460" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Tijeras de barbero -->
+  <g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="8" fill="#c41e3a"/>
+    <circle cx="20" cy="0" r="8" fill="#c41e3a"/>
+    <line x1="8" y1="-5" x2="12" y2="5" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Texto -->
+  <text x="300" y="350" font-size="28" font-weight="bold" text-anchor="middle" fill="#fff" font-family="Arial">Cortes Profesionales</text>
+</svg>
